@@ -1,0 +1,71 @@
+body {
+  background: #f9f7fe;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 670px;
+  height: 380px;
+  background: white;
+  margin: 60px auto;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.1);
+}
+main {
+  border-top: 1px solid rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  margin: 30px 30px 0 30px;
+}
+
+h1 {
+  font-size: 40px;
+}
+p {
+  opacity: 60%;
+}
+strong {
+  color: red;
+}
+.city {
+  width: 450px;
+  height: 50px;
+  background: #f9f7fe;
+  border: none;
+  border-radius: 8px;
+  margin: 30px 0 0 30px;
+  padding: 20px;
+  font-size: 15px;
+}
+.button {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  height: 50px;
+  width: 80px;
+  font-size: 15px;
+}
+div.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+.current-weather .emoji {
+  font-size: 35px;
+  position: relative;
+  top: 10px;
+}
+.current-weather .temperature {
+  position: relative;
+  top: 20px;
+  font-size: 80px;
+  font-weight: bold;
+}
+.current-weather .degrees {
+  position: relative;
+  top: -25px;
+  font-size: 25px;
+}
+.coder {
+  margin: 30px 30px 0 40px;
+  font-size: 15px;
+}
